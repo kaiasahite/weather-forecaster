@@ -1,0 +1,15 @@
+input {
+  background-color: blue;
+}
+h1 {
+  color: azure;
+  margin-left: 700px;
+}
+.button {
+  background-color: black;
+  color: white;
+}
+article {
+  margin-top: 100px;
+  margin-left: 825px;
+}
