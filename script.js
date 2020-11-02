@@ -1,6 +1,6 @@
 var button = document.querySelector(".button");
 var inputValue = document.querySelector(".inputValue");
-var namen = document.querySelector(".namen");
+var name = document.querySelector(".name");
 var desc = document.querySelector(".desc");
 var temp = document.querySelector(".temp");
 
@@ -11,6 +11,7 @@ button.addEventListener("click", function () {
       "&appid=c2b19ce1b72a2b30136891642cb070b5"
   )
     .then((response) => response.json())
+
     .then((data) => {
       var nameValue = data["name"];
       var tempValue = data["main"]["temp"];
